@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+        xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="testEnv" class="springConstructors.TestApp">
+
+        <property name="baseUrl" value="https://accounts.google.com/"/>
+        <property name="mailUrl" value="https://mail.google.com/mail/"/>
+        <property name="timeout" value="30"/>
+        <!--<property name="driver" value="chrome"/>-->
+        <property name="driver" value="firefox"/>
+        <!--<property name="driver" value="iexplore"/>-->
+
+    </bean>
+
+</beans>

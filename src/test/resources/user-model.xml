@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+        xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="account01" class="springConstructors.UserData">
+        <property name="gender" value="M"/>
+        <property name="firstName" value="Vadim"/>
+        <property name="lastName" value="Feschenko"/>
+	    <property name="username" value="oogleg615@gmail.com"/>
+        <property name="password" value="AsdFgh-01"/>
+    </bean>
+
+    <bean id="account02" class="springConstructors.UserData">
+        <property name="gender" value="M"/>
+        <property name="firstName" value="Vadim"/>
+        <property name="lastName" value="Fesenko"/>
+        <property name="username" value="oogleg02@gmail.com"/>
+        <property name="password" value="QweRty-02"/>
+    </bean>
+
+</beans>

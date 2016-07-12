@@ -80,12 +80,12 @@ public class GmailPage extends BasePage {
         setClipboardData();
         try {
             Robot robot = new Robot();
-            Thread.sleep(100);
+            Thread.sleep(200);
             robot.keyPress(KeyEvent.VK_CONTROL);
             robot.keyPress(KeyEvent.VK_V);
             robot.keyRelease(KeyEvent.VK_V);
             robot.keyRelease(KeyEvent.VK_CONTROL);
-            Thread.sleep(100);
+            Thread.sleep(500);
             robot.keyPress(KeyEvent.VK_ENTER);
             robot.keyRelease(KeyEvent.VK_ENTER);
         } catch (AWTException e) {
